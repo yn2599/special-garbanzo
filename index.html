@@ -15,12 +15,91 @@
 <body>
   <div id="app">
     <main name="">
-      <div class="main-container">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum iure, id possimus magnam atque natus doloribus. Impedit corrupti neque corporis tempore magnam itaque unde sunt aut praesentium, rerum consequuntur reiciendis!</div>
+      <div class="main-container">
+        <div class="back">
+          <img src="assets/icons/arrow-left-02.svg" alt="voltar">
+          <span>
+            Voltar
+          </span>
+        </div>
+        <h1>Formulário de matrícula</h1>
+        <p>Preencha os dados abaixo para matricular seu filho na escola de 
+          educação infantil Estrelas do Amanhã.
+        </p>
+
+        <form method="post" enctype="multipart/form-data">
+          <fieldset class="child-info">
+            <legend>
+              Informação da criança
+            </legend>
+
+            <div class="input-wrapper">
+              <label for="fullname">
+                Nome completo
+              </label>
+              <input id="fullname" 
+              type="text" 
+              name="fullname" 
+              placeholder="Qual o nome da crinaça">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="birth">Data de nascimento</label>
+              <input type="date" id="birth" name="birth" lang="pt-BR">
+            </div>
+
+            <div class="select-wrapper">
+              <label for="gender">Sexo</label>
+              <select name="gender" id="gender">
+                <option value="female">Feminino</option>
+                <option value="male">Masculino</option>
+                <option value="na">Prefiro não responder</option>
+              </select>
+            </div>
+
+            <div class="textarea-wrapper">
+              <label for="medical-info">Informação médica</label>
+                <textarea 
+                name="medical-info" 
+                id="medical-info"
+                cols="30" 
+                rows="10"
+                placeholder="A crinaça possui alguma condição
+                médica que a escola deve estar ciente? (se sim, especifique)">
+              </textarea>
+            </div>
+
+            <div class="droparea-wrapper">
+              <input type="file" id="birth-file" name="birth-file">
+              <img src="assets/icons/cloud-upload.svg" alt="">
+              <p>Clique aqui para <br>
+                selecionar os arquivos
+              </p>
+            </div>
+
+          </fieldset>
+        </form>
+      </div>
     </main>
 
 
     <aside>
-      <div class="aside-container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nisi ullam quo consectetur, adipisci laborum enim eligendi doloremque in consequatur eum sit iusto et quis architecto, nesciunt facilis illo mollitia?</div>
+      <div class="aside-container">
+        <header>
+          <img src="assets/Logo.svg" alt="logo">
+          <h2>Porque cada momento de  
+            <span>
+              aprendizado
+            </span>
+             conta
+          </h2>
+          <p>Inscreva seu filho em nossa escola e veja-o florescer em 
+            um ambiente acolhedor, seguro e estimulante.
+          </p>
+        </header>
+
+        <img src="assets/Illustration.svg" alt="inlustração de uma professora com o seu alunos.">
+      </div>
     </aside>
   </div>
 </body>
