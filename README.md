@@ -4,11 +4,11 @@ A new project.
 
 ## Getting Started
 
-This project is a starting point for a news story.
+This project is a starting point for a form.
 
-Some resources to get you started if this is your first time writing a news story.
+Here are some resources to get you started if this is your first time writing a form.
 
-For help getting started with the project, check out our code, what it offers.
+For help getting started with this project, check out our code and what it offers.
 assets, styles, index.html.
 
 <!--START_SECTION:footer-->
